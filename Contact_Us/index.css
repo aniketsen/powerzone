@@ -46,6 +46,25 @@ color: #f9f4ca;}
 .popup {
 float:right;margin-right:5%;
 font-size:1.2em;}
+#services {
+  position: fixed;
+  top: 6.5em;
+  font-size: 1.5em;
+  left: 21.5em;
+  width: 5em;
+  padding-left:0.5em;
+  visibility: hidden;
+  transition: opacity 500ms;
+  transition: top 0.5s;
+  color: black;
+  background-color: white;
+  opacity: 0;
+}
+#services:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 998;
+}
 .overlay {
 position:fixed;top:9.375em;left:31.25em;
 visibility:hidden;
