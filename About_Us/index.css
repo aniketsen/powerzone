@@ -54,7 +54,7 @@ p#title {
 }
 .menus {
   float: left;
-  margin-left: 10%;
+  margin-left: 7%;
   font-size: 1.2em;
   color: #f9f4ca;
 }
@@ -105,6 +105,20 @@ p#title {
   color: inherit;
   position: relative;
   transition: all 5s ease-in-out;
+}
+#button {
+	background-color: #f9f4ca;
+    border: none;
+    color: black;
+	font: inherit;
+	float: left;
+	border-radius: 0.5em;
+    padding: 1em 1.5em;
+	margin-left:3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 .close {
   font-size: 2em;
